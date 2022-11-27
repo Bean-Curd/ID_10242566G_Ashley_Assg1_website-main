@@ -13,7 +13,6 @@ Potential features to include:
 > Description of company + company goal
 > Showcase products and their ingredients
 > Allow users to buy products
-> Provide discounts and deals
 > Links to social platforms
 
 Suggested Javascript features to have:
