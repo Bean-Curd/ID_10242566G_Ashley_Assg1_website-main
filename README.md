@@ -14,9 +14,11 @@ The website is targeted at pet owners looking to buy pet food and those want to 
 
 <h2>Features</h2>
 
-The website would include a navigation bar with the 'Home', 'About', 'Products' buttons which would lead the user to the respective parts of the webpage. The cart icon would show the user what products they have selected. The search icon would allow the user to look for a specific pet food product.
+The website would include a navigation bar with the 'Home', 'About', 'Products' buttons which would lead the user to the respective parts of the webpage. The cart icon would show the user what products they have selected.
 
 By clicking on the products, the user would be taken to a seperate page where they can see the product details and order the product from there.
+
+Future features: A search icon would allow the user to look for a specific pet food product.
 
 <h2>Technologies Used</h2>
 
