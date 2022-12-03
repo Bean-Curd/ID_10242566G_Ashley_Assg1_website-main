@@ -1,17 +1,18 @@
 /* Main body */
 body{
     background: white;
+    cursor: default;
     font-family: "Righteous", cursive;
 }
 
 /* The navbar: Makes it in a row */
 header {
-    cursor: default;
     background-color: #e2e2e2;
     width: 99%;
     padding: 11px 0;
     top: 0;
     position: fixed;
+    z-index: 10;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -36,12 +37,6 @@ header ul li a {
 #logo {
     margin-left: 20px;
     width: 90px;
-}
-
-/* Company name on the navbar */
-#name {
-    color: black;
-    justify-content: flex-start;
 }
 
 /* Shopping cart on navbar */
@@ -69,9 +64,25 @@ header ul li a {
     color: blue;
     width: 100%;
     position: absolute;
+    z-index: 5;
     top: 70%;
     font-size: 70px;
     letter-spacing: 2px;
     transform: translateY(-50%);
+    text-align: center;
+}
+
+/* About section */
+.about {
+    text-align: center;
+}
+
+/* Products */
+h2 {
+    text-align: center;
+}
+
+/* Product types */
+h3 {
     text-align: center;
 }
