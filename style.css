@@ -27,8 +27,8 @@ header {
     width: 90px;
 }
 
-/* The home button on the navbar*/
-#hButton {
+/* The home, about, products and content button on the navbar*/
+#hButton, #aButton, #pButton, #cButton {
     float: right;
     text-decoration: none;
     color: black;
@@ -36,38 +36,12 @@ header {
     margin: 0 15px;
 }
 
-/* The about button on the navbar*/
-#aButton {
-    float: right;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    margin: 0 15px;
-}
-
-/* The products button on the navbar*/
-#pButton {
-    float: right;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    margin: 0 15px;
-}
-
-/* The contact button on the navbar*/
-#cButton {
-    float: right;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    margin: 0 15px;
-}
-
-/* Shopping cart on navbar */
+/* Shopping cart icon on navbar */
 #cart {
     float: right;
     overflow: hidden;
     max-width: 2.7%;
+    margin-left: 10px;
     margin-right: 20px;
 }
 
@@ -76,7 +50,17 @@ header {
     float: right;
     overflow: hidden;
     max-width: 2.7%;
-    margin-right: 15px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+/* Search bar */
+nav input[type=text] {
+    float: right;
+    size: 25px;
+    width: 200px;
+    margin-top: 1.5px;
+    border: none;
 }
 
 /* Homepage image */
@@ -113,12 +97,7 @@ header {
 }
 
 /* Products */
-h2 {
-    text-align: center;
-}
-
-/* Product types */
-h3 {
+h2, h3 {
     text-align: center;
 }
 
