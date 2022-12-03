@@ -1,3 +1,4 @@
+
 /* Main body */
 body{
     background: white;
@@ -8,29 +9,16 @@ body{
 /* The navbar: Makes it in a row */
 header {
     background-color: #e2e2e2;
+    overflow: hidden;
     width: 99%;
     padding: 11px 0;
     top: 0;
     position: fixed;
     z-index: 10;
     display: flex;
-    align-content: center;
-    justify-content: space-between;
-}
-
-/* The text in the navbar: Makes it in a row */
-header ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-
-/* The buttons on the right of the navbar */
-header ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
+    justify-content: space-between;  
+    align-items: center;  
+    margin-bottom: 6.0rem;
 }
 
 /* Logo on the left of the navbar */
@@ -39,16 +27,56 @@ header ul li a {
     width: 90px;
 }
 
+/* The home button on the navbar*/
+#hButton {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+/* The about button on the navbar*/
+#aButton {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+/* The products button on the navbar*/
+#pButton {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+/* The contact button on the navbar*/
+#cButton {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
 /* Shopping cart on navbar */
 #cart {
-    max-width: 15%;
-    height: auto;
+    float: right;
+    overflow: hidden;
+    max-width: 2.7%;
+    margin-right: 20px;
 }
 
 /* Search icon on navbar */
 #search {
-    max-width: 7%;
-    height: auto;
+    float: right;
+    overflow: hidden;
+    max-width: 2.7%;
+    margin-right: 15px;
 }
 
 /* Homepage image */
@@ -57,6 +85,7 @@ header ul li a {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    scroll-margin-top: 2.0rem;
 }
 
 /* Main name */
@@ -73,8 +102,14 @@ header ul li a {
 }
 
 /* About section */
-.about {
+#about {
     text-align: center;
+    scroll-margin-top: 6.0rem;
+}
+
+/* Product section */
+#products {
+    scroll-margin-top: 6.0rem;
 }
 
 /* Products */
@@ -85,4 +120,9 @@ h2 {
 /* Product types */
 h3 {
     text-align: center;
+}
+
+/* Contact section */
+#contact {
+    scroll-margin-top: 6.0rem;
 }

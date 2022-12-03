@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="Viewport" content="width=device-width">
     <title>Yummy Pet Food & Co.</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css"> 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,34 +17,32 @@
   <body>
 
     <header>
-        <img src="Images/IDCompanyLogo.png" id="logo">
+        <img src="Images/IDCompanyLogo.png" id="logo"> <!-- Initial image on navbar -->
 
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#"><img src="Images/IDCart.png" id="cart"></a></li>
-            <li><a href="#"><img src="Images/IDSearch.png" id="search"></a></li>
-          </ul>
+        <nav> <!-- Navbar buttons: Backwards for float: right -->
+          <a href="#"><img src="Images/IDCart.png" id="cart"></a></li>
+          <a id="cButton" href="#contact">Contact</a></li>
+          <a id="pButton" href="#products">Products</a></li>
+          <a id="aButton" href="#about">About</a></li>
+          <a id="hButton" href="#home">Home</a></li>
+          <a href="#"><img src="Images/IDSearch.png" id="search"></a></li>
         </nav>
 
     </header>
 
-    <section>
+    <section> <!--Home section-->
       <img src="Images/IDCompanyImage.png" id="home">
       <h1 id="intro">Yummy Pet Food & Co.</h1>
     <section>
 
-    <section class="about">
+    <section id="about"> <!--About section-->
       <h2>About this site</h2>
       <p>We here at Yummy Pet Food & Co. do our best to provide you with food of the utmost quality for your furry companions. <br> We strive to produce healthy and delicious food that your pets would enjoy, and hope to turn every meal into a feast to be relished.</p>
     </section>
 
-    <section> 
+    <section id="products"> <!--Products Offered-->
       <h2>Products</h2>
-      <h3>Dogs</h3>
+      <h3>Dogs</h3> <!--All dog products-->
 
       <div class="container">
         <div class="item">
@@ -69,7 +67,7 @@
         </div>
       </div>
       
-      <h3>Cats</h3>
+      <h3>Cats</h3> <!--All cat products-->
 
       <div class="container">
         <div class="item">
@@ -96,7 +94,7 @@
 
     </section>
 
-  <section class="contact">
+  <section id="contact"> <!--Contact options-->
     <h2>Contact</h2>
     <p>Find us at <a href="" class="link" title=""  >Twitter</a></p>
   </section>
