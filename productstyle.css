@@ -1,0 +1,52 @@
+/* Main body */
+body{
+    background: white;
+    cursor: default;
+    font-family: "Righteous", cursive;
+}
+
+/* The navbar: Makes it in a row */
+header {
+    background-color: #e2e2e2;
+    overflow: hidden;
+    width: 99%;
+    padding: 11px 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    margin-bottom: 6.0rem;
+}
+
+/* Logo on the left of the navbar */
+#logo {
+    margin-left: 20px;
+    width: 90px;
+}
+
+/* The home button on the navbar*/
+#hButton {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+/* Shopping cart icon on navbar */
+#cart {
+    float: right;
+    overflow: hidden;
+    max-width: 5%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+/* Search icon on navbar */
+#search {
+    float: right;
+    overflow: hidden;
+    max-width: 5%;
+    margin-right: 15px;
+}
