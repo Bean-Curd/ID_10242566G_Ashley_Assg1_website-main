@@ -37,12 +37,18 @@ header {
 
 /* Shopping cart icon on navbar */
 #cart {
-    cursor: pointer;
     float: right;
     overflow: hidden;
-    max-width: 4%;
+    max-width: 3%;
     margin-left: 10px;
     margin-right: 20px;
+}
+/* Search icon on navbar */
+#search {
+    float: right;
+    overflow: hidden;
+    max-width: 3%;
+    margin-right: 15px;
 }
 
 /* Homepage image */
