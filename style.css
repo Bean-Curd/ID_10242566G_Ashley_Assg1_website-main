@@ -1,28 +1,24 @@
+/* Main body */
 body{
     background: white;
+    font-family: "Righteous", cursive;
 }
 
-/* The bar on top of the website: Keeps it fixed */
-.navbar {
+/* The navbar: Makes it in a row */
+header {
+    cursor: default;
     background-color: #e2e2e2;
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-}
-
-/* The text in the navbar */
-.header {
-    display: flex;
-    width: 95%;
-    margin: auto;
+    width: 99%;
     padding: 11px 0;
-    align-items: center;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-content: center;
     justify-content: space-between;
 }
 
-/* The list on the right of the navbar */
-.header ul li {
+/* The text in the navbar: Makes it in a row */
+header ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
@@ -30,34 +26,52 @@ body{
 }
 
 /* The buttons on the right of the navbar */
-.header ul li a {
+header ul li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
 }
 
-/* Animation when you hover over the buttons on the right of the navbar */
-.header ul li::after {
-    content: "";
-    height: 3px;
-    width: 0;
-    background: blue;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.5s;
-}
-
-/* Animation when you hover over the buttons on the right of the navbar */
-.header ul li:hover:after {
-    width: 100%;
-}
-
 /* Logo on the left of the navbar */
-.logo {
+#logo {
+    margin-left: 20px;
     width: 90px;
 }
 
 /* Company name on the navbar */
-.name {
+#name {
+    color: black;
+    justify-content: flex-start;
+}
+
+/* Shopping cart on navbar */
+#cart {
+    max-width: 15%;
+    height: auto;
+}
+
+/* Search icon on navbar */
+#search {
+    max-width: 7%;
+    height: auto;
+}
+
+/* Homepage image */
+#home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Main name */
+#intro {
+    color: blue;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    font-size: 70px;
+    letter-spacing: 2px;
+    transform: translateY(-50%);
+    text-align: center;
 }
