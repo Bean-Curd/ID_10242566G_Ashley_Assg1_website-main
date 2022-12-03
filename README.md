@@ -1,6 +1,6 @@
 # ID_10242566G_Ashley_Assg1_website
 
-Website: A website that sells pet food (Cats/Dogs/Hamsters/GuineaPigs/Rabbits)
+Website: A website that sells pet food (Cats/Dogs)
 
 User Audience: Pet owners looking for pet food or want to know more about the pet food and the company.
 
