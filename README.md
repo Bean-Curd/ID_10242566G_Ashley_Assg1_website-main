@@ -1,6 +1,6 @@
 # ID_10242566G_Ashley_Assg1_website
 
-A website that sells pet food mainly for dogs and cats. The website would have a brief description of the company and display dog and cat food products.
+A website that sells pet food mainly for dogs and cats. The website would consist of the navigation bar, an image of the company in its homepage, a brief description of the company, the display of the dog and cat food products and ways for users to contact the company.
 
 <h2>Design Process</h2>
 
@@ -16,18 +16,14 @@ The website is targeted at pet owners looking to buy pet food and those want to 
 
 The website would include a navigation bar with the 'Home', 'About', 'Products' buttons which would lead the user to the respective parts of the webpage. The cart icon would show the user what products they have selected. The search icon would allow the user to look for a specific pet food product.
 
+By clicking on the products, the user would be taken to a seperate page where they can see the product details and order the product from there.
+
 <h2>Technologies Used</h2>
 
-Site owner's goal: To sell more pet food and get more people to know the brand and products available.
+html -> to add content to the website
+css -> to customize the website
+javascript -> to add interaction to the website
 
-Potential features to include:
+<h2>Testing</h2>
 
-> Description of company + company goal
-> Showcase products and their ingredients
-> Allow users to buy products
-> Some user reviews
-> Links to social platforms
-
-Suggested Javascript features to have:
-
->
+<h2>Credits</h2>
