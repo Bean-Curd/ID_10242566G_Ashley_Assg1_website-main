@@ -37,9 +37,10 @@ Future features:
 4. Navbar: Clicking on the "CONTACT" button brings you to the bottom of the main webpage
 5. Products: Clicking on any product image brings you to the product page
 6. Product Page: Clicking on the "HOME" button brings you back to the top of the main webpage
-7. Product Page: Only one product size button is selected at a time
-8. Contact: Clicking the "Twitter" link should open a new tab bringing you to the Twitter page
-9. Contact: Clicking the "Facebook" link should open a new tab bringing you to the Facebook page (Might need to log into your own Facebook account first)
+7. Product Page: Images cycle through the different flavours every ~ 2 seconds in order displayed
+8. Product Page: Only one product size button is selected at a time
+9. Contact: Clicking the "Twitter" link should open a new tab bringing you to the Twitter page
+10. Contact: Clicking the "Facebook" link should open a new tab bringing you to the Facebook page (Might need to log into your own Facebook account first)
 
 <h2>Credits</h2>
 
