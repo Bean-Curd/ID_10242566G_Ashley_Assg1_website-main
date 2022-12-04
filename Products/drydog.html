@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=device-width">
+    <title>Yummy Pet Food & Co.</title>
+    <link rel="stylesheet" href="normalize.css"> 
+    <link rel="stylesheet" href="productstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+ <body>
+    <header>
+        <img src="../Images/IDCompanyLogo.png" id="logo"> <!-- Initial image on navbar -->
+
+        <nav> <!-- Navbar buttons: Backwards for float: right -->
+          <a><img src="../Images/IDCart.png" id="cart"></a></li>
+          <a id="hButton" href="index.html">Home</a></li>
+          <a><img src="../Images/IDSearch.png" id="search"></a>
+        </nav>
+
+    </header>
+
+    <section class="container">
+        <div class="split">
+            <img src="../Images/IDDryDog-Beef.png" id="currentProduct">
+        </div>
+        <div class="split">
+            <h2>Dog Kibble/Dry Dog Food</h2>
+            <p>Price of product (S$3.50 per Kilogram)</p>
+            <p>Comes in 3 flavours: Beef, Chicken and Salmon<p></p>
+            <p>Provides dogs with vitamins and nutirents, and help boost their </br> immune systems. A healthy balance of ingredients to help keep your </br> furry companions happy and in good shape. Contains essential </br> vitamins like B-12, A, E and K and minerals like Calcium, Sodium, </br> Potassium and Zinc</p>
+            <section id="size">
+                <p>Size of product:</p>
+                <label>5 kg
+                    <input type="radio" name="animal" value="5">
+                </label>
+                <label>10 kg
+                    <input type="radio" name="animal" value="10">
+                </label>
+                <label>15 kg
+                    <input type="radio" name="animal" value="15">
+                </label>
+                <label>20 kg
+                    <input type="radio" name="animal" value="20">
+                </label>
+            </section>
+        </div>
+    </section>
+ </body>
+ 
+ <footer>
+    <p>&copy; 2022 Bean Curd :D</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</html>
