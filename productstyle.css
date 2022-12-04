@@ -89,3 +89,8 @@ header {
         flex-basis: 100%;
     }
 }
+
+/* Size of product */
+#size {
+    padding-top: 5%;
+}
