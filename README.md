@@ -25,9 +25,9 @@ Future features:
 
 <h2>Technologies Used</h2>
 
-html -> to add content to the website
-css -> to customize the website
-javascript -> to add interaction to the website
+- html -> to add content to the website
+- css -> to customize the website
+- javascript -> to add interaction to the website
 
 <h2>Testing</h2>
 
