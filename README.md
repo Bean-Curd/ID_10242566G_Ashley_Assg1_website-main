@@ -31,4 +31,18 @@ Future features:
 
 <h2>Testing</h2>
 
+1. Navbar: Clicking on the "HOME" button brings you to the top of the main webpage
+2. Navbar: Clicking on the "ABOUT" button brings you to the about section of the main webpage
+3. Navbar: Clicking on the "PRODUCTS" button brings you to the product section of the main webpage
+4. Navbar: Clicking on the "CONTACT" button brings you to the bottom of the main webpage
+5. Products: Clicking on any product image brings you to the product page
+6. Product Page: Clicking on the "HOME" button brings you back to the top of the main webpage
+7. Product Page: Only one product size button is selected at a time
+8. Contact: Clicking the "Twitter" link should open a new tab bringing you to the Twitter page
+9. Contact: Clicking the "Facebook" link should open a new tab bringing you to the Facebook page (Might need to log into your own Facebook account first)
+
 <h2>Credits</h2>
+
+Media:
+
+- I drew all of them myself
