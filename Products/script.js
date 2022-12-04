@@ -2,13 +2,14 @@
 window.onload = rotate;
 
 var product = 0;
+var id = document.getElementById()
 
-if (document.getElementsById("DryDog")) {
-    var productImages = new Array("../Images/IDDryDog-Salmon.png","../Images/IDDryDog-Beef.png","../Images/IDDryDog-Chicken.png")
-} else if (document.getElementsById("WetDog")) {
-    var productImages = new Array("../Images/IDWetDog-Beef","../Images/IDWetDog-Chicken","../Images/IDWetDog-Salmon") 
-} else if (document.getElementsById("RawDog")) {
-    var productImages = new Array("../Images/IDRawDog-Beef","../Images/IDRawDog-Chicken","../Images/IDRawDog-Salmon") 
+if (id == "DryDog") {
+    var productImages = new Array("../Images/IDDryDog-Salmon.png","../Images/IDDryDog-Beef.png","../Images/IDDryDog-Chicken.png");
+} else if (id == "WetDog") {
+    var productImages = new Array("../Images/IDWetDog-Salmon.png","../Images/IDWetDog-Beef.png","../Images/IDWetDog-Chicken.png");
+} else if (id == "RawDog") {
+    var productImages = new Array("../Images/IDRawDog-Salmon.png","../Images/IDRawDog-Beef.png","../Images/IDRawDog-Chicken.png");
 }
 
 function rotate() {
