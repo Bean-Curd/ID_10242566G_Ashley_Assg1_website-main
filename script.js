@@ -17,5 +17,5 @@ function rotate() {
         product = 0;
     }
     document.getElementById("currentProduct").src = productImages[product];
-    setTimeout(rotate, 3 * 1000)
+    setTimeout(rotate, 2 * 1000)
 }
