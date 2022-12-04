@@ -126,6 +126,7 @@ h3 {
     scroll-margin-top: 6.0rem;
 }
 
+/* Mobile view */
 @media (max-width: 576px) {
     header {
         background-color: #e2e2e2;
