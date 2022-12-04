@@ -125,3 +125,51 @@ h3 {
 #contact {
     scroll-margin-top: 6.0rem;
 }
+
+@media (max-width: 576px) {
+    header {
+        background-color: #e2e2e2;
+        left: 0;
+        height: 4%;
+        overflow: hidden;
+        width: 100%;
+        padding: 0.8% 0;
+        top: 0;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;  
+        align-items: center;  
+        margin-bottom: 6.0rem;
+    }
+    #logo {
+        margin-left: 1.8%;
+        width: 7%;
+    }
+    #hButton, #aButton, #pButton, #cButton {
+        float: right;
+        font-size: 75%;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        margin: 0 3%;
+    }
+    #home {
+        margin-top: 6%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 102%;
+        scroll-margin-top: 2.0rem;
+    }
+    #intro {
+        color: blue;
+        width: 100%;
+        position: absolute;
+        z-index: 5;
+        top: 16%;
+        font-size: 125%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+}
